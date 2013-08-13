@@ -1,0 +1,73 @@
+.container {
+    background-color: #fff;
+}
+svg {
+    margin:0;
+    padding:0;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:-5;
+}
+.node {
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.link {
+    fill: none;
+    stroke: #000;
+}
+body {
+    color: #444;
+    background: url(../images/grey.png) center center repeat;
+    background-position: fixed;
+}
+
+code {
+    border:1px dashed #E1E1E1;
+    color:#333344;
+    background:#FAFAFA;
+    font-family:monospace;
+    overflow:auto;
+    font-size:11px;
+    padding:0.2em;
+}
+
+a, a:visited {
+    color: #444;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+} 
+
+.un-bulleted {
+    list-style: none;
+}
+
+.guestbook-form-container {
+    width: 500px
+}
+
+.message {
+    font-size: 110%;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.post-message {
+    clear: both;
+}
+
+
+
+.date {
+    color: #ccc;
+    font-size: 90%;
+
+}
